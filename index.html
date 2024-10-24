@@ -47,8 +47,8 @@
 
         .login-box {
             background: rgba(0, 0, 0, 0.75);
-            padding: 60px 68px 40px;
-            width: 350px;
+            padding: 70px 90px 60px;
+            width: 450px; /* Increased width for a wider box */
             border-radius: 4px;
             text-align: left;
         }
@@ -61,8 +61,8 @@
         .login-box input[type="text"],
         .login-box input[type="password"] {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 16px;
+            padding: 14px;
+            margin-bottom: 20px;
             background: #333;
             border: none;
             border-radius: 4px;
@@ -72,7 +72,7 @@
 
         .login-box button {
             width: 100%;
-            padding: 12px;
+            padding: 14px;
             background: #e50914;
             border: none;
             color: #fff;
@@ -80,13 +80,13 @@
             font-weight: bold;
             cursor: pointer;
             border-radius: 4px;
-            margin-top: 24px;
+            margin-top: 30px;
         }
 
         .login-box .options {
             font-size: 13px;
             color: #b3b3b3;
-            margin-top: 12px;
+            margin-top: 20px;
         }
 
         .login-box .options a {
@@ -108,14 +108,9 @@
             margin-right: 8px;
         }
 
-        .login-box .help {
-            margin-top: 16px;
-            font-size: 13px;
-        }
-
         .signup {
             text-align: center;
-            margin-top: 16px;
+            margin-top: 24px;
             font-size: 14px;
         }
 
@@ -132,7 +127,7 @@
             font-size: 13px;
             color: #8c8c8c;
             text-align: center;
-            margin-top: 20px;
+            margin-top: 24px;
         }
 
         .captcha-notice a {
@@ -150,7 +145,7 @@
     <img src="logo.png" alt="Netflix Logo" class="logo">
     <div class="login-container">
         <div class="login-box">
-            <h1>Sign in</h1>
+            <h1>Sign In</h1>
             <form>
                 <input type="text" placeholder="Email address" required>
                 <input type="password" placeholder="Password" required>
@@ -174,6 +169,8 @@
     </div>
 </body>
 </html>
+
+
 <script>
     document.querySelector('form').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent the default form submission
